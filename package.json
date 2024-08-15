@@ -28,7 +28,6 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
     "predeploy" :  "npm run build"
-    
   },
   "eslintConfig": {
     "extends": [
@@ -48,5 +47,5 @@
       "last 1 safari version"
     ]
   },
-"homepage": "https://github.com/chloeyun/personal_portfolio_js.git"
+"homepage": "https://chloeyun.github.io/personal_portfolio_js"
 }

@@ -16,7 +16,9 @@ export const Contact = () => {
   const onFormUpdate = (category, value) => {
     setFormDetails({ ...formDetails, [category]: value });
   };
-  const handleSubmit = () => {};
+	const handleSubmit = () => {
+	
+	};
 
   return (
     <section className="contact" id="connect">
