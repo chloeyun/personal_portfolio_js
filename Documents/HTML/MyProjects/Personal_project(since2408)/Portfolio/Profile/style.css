@@ -1,0 +1,106 @@
+html {
+  background-color:#F9F9E0;
+}
+
+#table a {
+  color: #3AA6B9;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 900;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+h1 { 
+padding:20px;
+text-align: center;
+font-size: 3rem;
+font-family: "Space Grotesk", sans-serif;
+}
+
+
+ul {
+list-style: none;
+border-bottom: 20px #FFD0D0 dotted;
+padding:10px;
+margin:20px;
+line-height:2;
+text-align: center;
+}
+
+
+p, .card {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem; 
+  margin: 20px;
+}
+
+
+.videos {
+display:table;
+width:100%;
+height:auto;
+}
+
+
+
+@media (max-width:700px) {
+    #grid {
+    display:block;}
+    h1 {
+    border-top:none}
+    ul {
+    border-bottom: none;}
+}
+
+.videos li {
+  display : inline-block;
+  border: 10px solid #FF9EAA;
+  margin:10px
+}
+
+.videos iframe {
+ width: 320px;
+ height:180px
+
+} 
+
+img { 
+  float: left;
+  margin: 20px;
+}
+
+footer {
+  clear: left;
+  margin-left: 20px;
+}
+
+img#brunch {
+  margin: auto;
+  display:block;
+  width: 60%;}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px 200px 200px 200px;
+  gap: 10px;
+  margin: 10px;
+}
+
+  .first {
+    grid-column: span 2;
+    background-color: #FF9EAA !important;
+    padding-top:25px !important
+
+}
+
+  .card {
+    background-color: #3AA6B9;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    margin: 5px
+  }

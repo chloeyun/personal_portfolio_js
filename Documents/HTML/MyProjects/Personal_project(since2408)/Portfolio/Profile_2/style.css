@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700);
+
+body {
+	text-align: center;
+	margin: 0
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	padding:0
+}
+
+div {
+	margin-bottom: 0;
+	padding-bottom: 100px;
+	padding-top: 100px
+}
+
+a {
+	text-decoration: none;
+	color: white
+}
+
+li {
+	list-style: none;}
+
+#links {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+
+}
+
+.intro{
+	background-color: #FFBF78}
+
+
+.exp {	
+	background-color: #FEFFD2}
+
+.ctc {
+	background-color: #FF7D29;
+}
+
+h1, h2 {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+p, li, button {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+button {
+	background-color: #FEFFD2;
+	padding: 10px 100px;
+	border-radius: 10px;
+	border: none
+}
